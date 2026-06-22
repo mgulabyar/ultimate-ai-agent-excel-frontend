@@ -588,47 +588,6 @@
 //             if (action.style.fontColor) fmt.font.color = action.style.fontColor;
 //             if (action.style.bold !== undefined) fmt.font.bold = action.style.bold;
 
-//             // --- FIXED BORDER LOGIC ---
-//             if (action.style.applyBorders) {
-//               // Defining explicit literal types for TypeScript
-//               const borders: (
-//                 | "EdgeTop"
-//                 | "EdgeBottom"
-//                 | "EdgeLeft"
-//                 | "EdgeRight"
-//                 | "InsideVertical"
-//                 | "InsideHorizontal"
-//               )[] = [
-//                 "EdgeTop",
-//                 "EdgeBottom",
-//                 "EdgeLeft",
-//                 "EdgeRight",
-//                 "InsideVertical",
-//                 "InsideHorizontal",
-//               ];
-
-//               borders.forEach((b) => {
-//                 fmt.borders.getItem(b).style = "Continuous";
-//                 fmt.borders.getItem(b).color = "#D1D5DB"; // Subtle gray borders
-//               });
-//             }
-
-//             if (action.style.removeBorders) {
-//               const borders: (
-//                 | "EdgeTop"
-//                 | "EdgeBottom"
-//                 | "EdgeLeft"
-//                 | "EdgeRight"
-//                 | "InsideVertical"
-//                 | "InsideHorizontal"
-//               )[] = [
-//                 "EdgeTop",
-//                 "EdgeBottom",
-//                 "EdgeLeft",
-//                 "EdgeRight",
-//                 "InsideVertical",
-//                 "InsideHorizontal",
-//               ];
 
 
 
