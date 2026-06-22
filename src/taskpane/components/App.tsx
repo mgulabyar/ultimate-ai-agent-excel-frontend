@@ -726,13 +726,6 @@
 //                 boxShadow: "0 1px 3px rgba(0,0,0,0.08)",
 //                 border: m.role === "assistant" ? "1px solid #e9ecef" : "none",
 //               }}
-//             >
-//               <Typography sx={{ fontSize: "12.5px", lineHeight: 1.6 }}>{m.text}</Typography>
-//             </Paper>
-//           </Box>
-//         ))}
-//         <div ref={chatEndRef} />
-//       </Box>
 
 
 
