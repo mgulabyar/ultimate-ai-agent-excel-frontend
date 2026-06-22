@@ -630,26 +630,6 @@
 //                 "InsideHorizontal",
 //               ];
 
-//               borders.forEach((b) => {
-//                 fmt.borders.getItem(b).style = "None";
-//               });
-//             }
-//           }
-//           range.format.autofitColumns();
-//           await context.sync();
-//         }
-//       });
-//     } catch (e) {
-//       console.error("Execution Error:", e);
-//     }
-//   };
-
-//   const handleSend = async () => {
-//     if (!prompt.trim()) return;
-//     const userText = prompt;
-//     setChat((prev) => [...prev, { role: "user", text: userText }]);
-//     setPrompt("");
-//     setLoading(true);
 
 
 
