@@ -651,37 +651,6 @@
 //     setPrompt("");
 //     setLoading(true);
 
-//     try {
-//       await Excel.run(async (context) => {
-//         const sheet = context.workbook.worksheets.getActiveWorksheet();
-//         const usedRange = sheet.getUsedRange();
-//         usedRange.load("values");
-//         await context.sync().catch(() => {});
-
-//         const res = await axios.post("http://127.0.0.1:8007/api/agent/chat", {
-//           prompt: userText,
-//           snapshot: usedRange.values || [],
-//         });
-
-//         const { agent_data } = res.data;
-//         setChat((prev) => [...prev, { role: "assistant", text: agent_data.message }]);
-//         if (agent_data.actions) await executeActions(agent_data.actions);
-//       });
-//     } catch (e) {
-//       setChat((prev) => [
-//         ...prev,
-//         { role: "assistant", text: "Connection error. Is Node 8007 running?" },
-//       ]);
-//     }
-//     setLoading(false);
-//   };
-
-//   return (
-//     <Box sx={{ height: "100vh", bgcolor: "#f8f9fa", display: "flex", flexDirection: "column" }}>
-//       {/* 1. CLEAN HEADER */}
-//       <Paper
-//         elevation={0}
-
 
 
 import React, { useState, useRef, useEffect } from "react";
