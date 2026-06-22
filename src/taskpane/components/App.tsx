@@ -704,19 +704,6 @@
 //       {/* 2. CHAT AREA */}
 //       <Box
 //         sx={{
-//           flexGrow: 1,
-//           p: 2,
-//           overflowY: "auto",
-//           display: "flex",
-//           flexDirection: "column",
-//           gap: 2,
-//         }}
-//       >
-//         {chat.map((m, i) => (
-//           <Box
-//             key={i}
-//             sx={{ alignSelf: m.role === "user" ? "flex-end" : "flex-start", maxWidth: "85%" }}
-//           >
 
 
 
