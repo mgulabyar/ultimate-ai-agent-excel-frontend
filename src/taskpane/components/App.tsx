@@ -742,15 +742,7 @@
 //           value={prompt}
 //           onChange={(e) => setPrompt(e.target.value)}
 //           onKeyPress={(e) => e.key === "Enter" && handleSend()}
-//           InputProps={{
-//             endAdornment: (
-//               <IconButton onClick={handleSend} disabled={loading} color="primary">
-//                 {loading ? <CircularProgress size={22} /> : <Send sx={{ fontSize: 18 }} />}
-//               </IconButton>
-//             ),
-//             sx: { borderRadius: 2, fontSize: "13px", bgcolor: "#f1f3f5" },
-//           }}
-//         />
+
 
 
 import React, { useState, useRef, useEffect } from "react";
