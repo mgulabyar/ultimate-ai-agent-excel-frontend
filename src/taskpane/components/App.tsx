@@ -734,15 +734,6 @@
 //         <div ref={chatEndRef} />
 //       </Box>
 
-//       <Box sx={{ p: 2, bgcolor: "#fff", borderTop: "1px solid #e9ecef" }}>
-//         <TextField
-//           fullWidth
-//           size="medium"
-//           placeholder="Command..."
-//           value={prompt}
-//           onChange={(e) => setPrompt(e.target.value)}
-//           onKeyPress={(e) => e.key === "Enter" && handleSend()}
-
 
 
 import React, { useState, useRef, useEffect } from "react";
