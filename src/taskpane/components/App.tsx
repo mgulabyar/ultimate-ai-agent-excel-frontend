@@ -717,15 +717,7 @@
 //             key={i}
 //             sx={{ alignSelf: m.role === "user" ? "flex-end" : "flex-start", maxWidth: "85%" }}
 //           >
-//             <Paper
-//               sx={{
-//                 p: 1.5,
-//                 borderRadius: 2.5,
-//                 bgcolor: m.role === "user" ? "#2b579a" : "#fff",
-//                 color: m.role === "user" ? "#fff" : "#495057",
-//                 boxShadow: "0 1px 3px rgba(0,0,0,0.08)",
-//                 border: m.role === "assistant" ? "1px solid #e9ecef" : "none",
-//               }}
+
 
 
 
