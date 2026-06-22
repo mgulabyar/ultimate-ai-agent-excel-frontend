@@ -356,53 +356,6 @@
 //             if (action.style.bold) fmt.font.bold = true;
 
 //             // ELITE FIX: Automatically apply Borders for tables
-//             if (action.style.applyBorders || action.range.includes(":")) {
-//               const borders = fmt.borders;
-//               borders.load("items");
-//               borders.getItem("EdgeTop").style = "Continuous";
-//               borders.getItem("EdgeBottom").style = "Continuous";
-//               borders.getItem("EdgeLeft").style = "Continuous";
-//               borders.getItem("EdgeRight").style = "Continuous";
-//               borders.getItem("InsideVertical").style = "Continuous";
-//               borders.getItem("InsideHorizontal").style = "Continuous";
-//             }
-//           }
-
-//           range.format.autofitColumns();
-//           await context.sync();
-
-//           setCurrentTasks((prev) => {
-//             const updated = [...prev];
-//             updated[updated.length - 1].done = true;
-//             return updated;
-//           });
-//         }
-//       });
-//     } catch (e) {
-//       console.error(e);
-//     }
-//   };
-
-//   const handleSend = async () => {
-//     if (!prompt.trim()) return;
-//     const userText = prompt;
-//     setChat((prev) => [...prev, { role: "user", text: userText }]);
-//     setPrompt("");
-//     setLoading(true);
-//     setCurrentTasks([]);
-
-//     try {
-//       await Excel.run(async (context) => {
-//         const sheet = context.workbook.worksheets.getActiveWorksheet();
-//         const usedRange = sheet.getUsedRange();
-//         usedRange.load("values");
-//         await context.sync().catch(() => {});
-
-//         const res = await axios.post("http://127.0.0.1:8007/api/agent/chat", {
-//           prompt: userText,
-//           snapshot: usedRange.values || [],
-//         });
-
 
 
 import React, { useState, useRef, useEffect } from "react";
