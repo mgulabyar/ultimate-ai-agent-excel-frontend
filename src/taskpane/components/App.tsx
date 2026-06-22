@@ -543,51 +543,6 @@
 //   );
 // };
 
-// export default App;
-
-// import React, { useState, useRef, useEffect } from "react";
-// import {
-//   Box,
-//   Typography,
-//   Paper,
-//   CircularProgress,
-//   Stack,
-//   TextField,
-//   IconButton,
-//   Avatar,
-// } from "@mui/material";
-// import { Send, FlashOn, Psychology } from "@mui/icons-material";
-// import axios from "axios";
-
-// const App: React.FC = () => {
-//   const [loading, setLoading] = useState(false);
-//   const [prompt, setPrompt] = useState("");
-//   const [chat, setChat] = useState<{ role: string; text: string }[]>([]);
-//   const chatEndRef = useRef<null | HTMLDivElement>(null);
-
-//   useEffect(() => {
-//     chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
-//   }, [chat]);
-
-//   // CORE EXECUTION ENGINE (Fixed TypeScript Overload Error)
-//   const executeActions = async (actions: any[]) => {
-//     try {
-//       await Excel.run(async (context) => {
-//         const sheet = context.workbook.worksheets.getActiveWorksheet();
-
-//         for (const action of actions) {
-//           const range = sheet.getRange(action.range);
-
-//           if (action.type === "WRITE" || action.type === "FORMULA" || action.type === "REPLACE") {
-//             range.values = action.values;
-//           }
-
-//           if (action.style) {
-//             const fmt = range.format;
-//             if (action.style.backgroundColor) fmt.fill.color = action.style.backgroundColor;
-//             if (action.style.fontColor) fmt.font.color = action.style.fontColor;
-//             if (action.style.bold !== undefined) fmt.font.bold = action.style.bold;
-
 
 
 
