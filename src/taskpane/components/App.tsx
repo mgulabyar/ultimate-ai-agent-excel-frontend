@@ -403,53 +403,6 @@
 //           snapshot: usedRange.values || [],
 //         });
 
-//         const { agent_data } = res.data;
-//         setChat((prev) => [...prev, { role: "assistant", text: agent_data.message }]);
-//         if (agent_data.actions) await executeActions(agent_data.actions);
-//       });
-//     } catch (e) {
-//       setChat((prev) => [
-//         ...prev,
-//         { role: "assistant", text: "Brain sync interrupted. Check connection." },
-//       ]);
-//     }
-//     setLoading(false);
-//   };
-
-//   return (
-//     <Box sx={{ height: "100vh", bgcolor: "#f8f9fa", display: "flex", flexDirection: "column" }}>
-//       {/* 1. PROFESSIONAL HEADER */}
-//       <Paper
-//         elevation={0}
-//         sx={{
-//           p: 2,
-//           bgcolor: "#fff",
-//           borderBottom: "1px solid #dee2e6",
-//           display: "flex",
-//           alignItems: "center",
-//           gap: 1.5,
-//         }}
-//       >
-//         <Memory sx={{ color: "#2b579a" }} />
-//         <Typography variant="subtitle2" fontWeight={800} color="#343a40">
-//           OMNI-AGENT <span style={{ color: "#2b579a" }}>ELITE</span>
-//         </Typography>
-//       </Paper>
-
-//       {/* 2. CHAT SCROLLER */}
-//       <Box
-//         sx={{
-//           flexGrow: 1,
-//           p: 2,
-//           overflowY: "auto",
-//           display: "flex",
-//           flexDirection: "column",
-//           gap: 2,
-//         }}
-//       >
-//         {chat.map((m, i) => (
-//           <Box
-//             key={i}
 
 
 import React, { useState, useRef, useEffect } from "react";
