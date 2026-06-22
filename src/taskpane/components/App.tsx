@@ -692,19 +692,6 @@
 //       >
 //         <Stack direction="row" spacing={1} alignItems="center">
 //           <Avatar sx={{ bgcolor: "#2b579a", width: 30, height: 30 }}>
-//             <Psychology sx={{ fontSize: 20 }} />
-//           </Avatar>
-//           <Typography variant="subtitle2" fontWeight={800} color="#343a40">
-//             OMNI-COMMANDER AI
-//           </Typography>
-//         </Stack>
-//         <FlashOn sx={{ fontSize: 18, color: "#2b579a", opacity: 0.6 }} />
-//       </Paper>
-
-//       {/* 2. CHAT AREA */}
-//       <Box
-//         sx={{
-
 
 
 
