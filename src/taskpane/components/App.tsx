@@ -514,36 +514,6 @@
 //         <div ref={chatEndRef} />
 //       </Box>
 
-//       {/* 4. COMPACT INPUT */}
-//       <Box sx={{ p: 2, bgcolor: "#fff", borderTop: "1px solid #dee2e6" }}>
-//         <TextField
-//           fullWidth
-//           size="medium"
-//           placeholder="Type command..."
-//           value={prompt}
-//           onChange={(e) => setPrompt(e.target.value)}
-//           onKeyPress={(e) => e.key === "Enter" && handleSend()}
-//           InputProps={{
-//             endAdornment: (
-//               <IconButton onClick={handleSend} disabled={loading} color="primary">
-//                 {loading ? <CircularProgress size={22} /> : <Send sx={{ fontSize: 18 }} />}
-//               </IconButton>
-//             ),
-//             sx: { borderRadius: 2, fontSize: "13px", bgcolor: "#f1f3f5" },
-//           }}
-//         />
-//         <Typography
-//           variant="caption"
-//           sx={{ display: "block", mt: 1, textAlign: "center", color: "#adb5bd", fontSize: "9px" }}
-//         >
-//           V 5.0 • CORE 8007 • BORDER LOGIC ACTIVE
-//         </Typography>
-//       </Box>
-//     </Box>
-//   );
-// };
-
-
 
 
 
