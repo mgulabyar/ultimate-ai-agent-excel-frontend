@@ -331,32 +331,6 @@
 //     chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
 //   }, [chat, currentTasks]);
 
-//   const executeActions = async (actions: any[]) => {
-//     try {
-//       await Excel.run(async (context) => {
-//         const sheet = context.workbook.worksheets.getActiveWorksheet();
-
-//         for (let i = 0; i < actions.length; i++) {
-//           const action = actions[i];
-//           setCurrentTasks((prev) => [
-//             ...prev,
-//             { msg: `Action ${i + 1}: ${action.type} on ${action.range}`, done: false },
-//           ]);
-
-//           const range = sheet.getRange(action.range);
-
-//           if (action.type === "WRITE" || action.type === "FORMULA") {
-//             range.values = action.values;
-//           }
-
-//           if (action.style) {
-//             const fmt = range.format;
-//             if (action.style.backgroundColor) fmt.fill.color = action.style.backgroundColor;
-//             if (action.style.fontColor) fmt.font.color = action.style.fontColor;
-//             if (action.style.bold) fmt.font.bold = true;
-
-//             // ELITE FIX: Automatically apply Borders for tables
-
 
 import React, { useState, useRef, useEffect } from "react";
 import {
