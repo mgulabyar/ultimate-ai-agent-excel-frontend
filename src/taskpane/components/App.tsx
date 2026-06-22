@@ -754,15 +754,7 @@
 //         <Typography
 //           variant="caption"
 //           sx={{ display: "block", mt: 1, textAlign: "center", color: "#adb5bd", fontSize: "9px" }}
-//         >
-//           V 6.0 • SUPREME CORE ACTIVE • PORT 8007
-//         </Typography>
-//       </Box>
-//     </Box>
-//   );
-// };
 
-// export default App;
 
 import React, { useState, useRef, useEffect } from "react";
 import {
