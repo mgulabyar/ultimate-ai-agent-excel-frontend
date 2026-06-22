@@ -681,17 +681,6 @@
 //       {/* 1. CLEAN HEADER */}
 //       <Paper
 //         elevation={0}
-//         sx={{
-//           p: 1.5,
-//           bgcolor: "#fff",
-//           borderBottom: "1px solid #e9ecef",
-//           display: "flex",
-//           alignItems: "center",
-//           justifyContent: "space-between",
-//         }}
-//       >
-//         <Stack direction="row" spacing={1} alignItems="center">
-//           <Avatar sx={{ bgcolor: "#2b579a", width: 30, height: 30 }}>
 
 
 
